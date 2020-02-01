@@ -1,1 +1,23 @@
 /* Add your CSS code below */
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+.message--unread {
+  border-left: blue;
+}
+
+.message__content:first-child {
+  color: transparent 0.9;
+}
+
+.messages {
+  line-height: 1.5em; /*Increase the space between each line in a message.*/
+}
